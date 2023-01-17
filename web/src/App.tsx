@@ -1,4 +1,4 @@
-import { Habit } from "./components/Habit";
+import { Habit } from './components/Habit';
 
 function App() {
   return (

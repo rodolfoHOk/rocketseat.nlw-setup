@@ -30,7 +30,7 @@
 
 - 1: https://tailwindcss.com/docs/installation/using-postcss
 
-## 🔗 Project repositories links ✨
+## 🔗 Projects repositories links ✨
 
 - [Server project](server)
 

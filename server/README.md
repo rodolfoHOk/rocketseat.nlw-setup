@@ -47,7 +47,7 @@
 
 - Instalando o CORS em um projeto com Fastify: npm install @fastify/cors
 
-## 🔗 Project repositories links ✨
+## 🔗 Projects repositories links ✨
 
 - [Server project](server)
 

@@ -23,9 +23,9 @@
 - Expo
 - React Native
 
-## 🖼️ Project images 👀
+## 🖼️ Projects images 👀
 
-## 🔗 Project repositories links ✨
+## 🔗 Projects repositories links ✨
 
 - [Server project](server)
 
