@@ -1,8 +1,20 @@
-# NLW Setup - Server
+# 🚀 NLW Setup - Server 🚀
 
 > NLW Setup Server Project: created during RocketSeat's NLW Setup event
 
-## Guia de Setup do projeto:
+## 👨‍💻 Main technologies 👩‍💻
+
+- Typescript
+- Node Js
+- Fastify
+- Prisma
+- SQLite
+
+### 📚 Additional libraries 🗃️
+
+- @fastify/cors
+
+## 📃 Setup Guide (Portuguese) 📖
 
 - Iniciando projeto NodeJs: npm init -y
 
@@ -34,3 +46,11 @@
 - Acessando o banco de dados pelo Prisma: npx prisma studio
 
 - Instalando o CORS em um projeto com Fastify: npm install @fastify/cors
+
+## 🔗 Project repositories links ✨
+
+- [Server project](server)
+
+- [Web project](web)
+
+- [Mobile project](mobile)
