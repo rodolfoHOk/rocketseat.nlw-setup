@@ -14,6 +14,7 @@
 - @expo-google-fonts/inter
 - react-native-svg
 - react-native-svg-transformer
+- dayjs
 
 ## 📃 Guide 📖
 
@@ -23,6 +24,8 @@
 ## 🔗 Utils links ✨
 
 - 1: https://docs.expo.dev/guides/using-custom-fonts/
+- 2: https://docs.expo.dev/versions/latest/sdk/svg/
+- 3: https://www.nativewind.dev/quick-starts/expo
 
 ## 🔗 Projects repositories links ✨
 
