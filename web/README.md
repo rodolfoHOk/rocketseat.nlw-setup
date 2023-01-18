@@ -11,7 +11,8 @@
 
 ### 📚 Additional libraries 🗃️
 
--
+- phosphor-react
+- dayjs
 
 ## 📃 Guide 📖
 
