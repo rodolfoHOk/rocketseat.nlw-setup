@@ -22,6 +22,7 @@
 - Tailwind CSS
 - Expo
 - React Native
+- NativeWind
 
 ## 🖼️ Projects images 👀
 

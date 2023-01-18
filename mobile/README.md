@@ -7,10 +7,13 @@
 - Typescript
 - Expo
 - React Native
+- NativeWind
 
 ### 📚 Additional libraries 🗃️
 
 - @expo-google-fonts/inter
+- react-native-svg
+- react-native-svg-transformer
 
 ## 📃 Guide 📖
 
