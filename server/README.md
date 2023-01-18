@@ -13,6 +13,9 @@
 ### 📚 Additional libraries 🗃️
 
 - @fastify/cors
+- prisma-erd-generator and @mermaid-js/mermaid-cli
+- zod
+- dayjs
 
 ## 📃 Setup Guide (Portuguese) 📖
 
