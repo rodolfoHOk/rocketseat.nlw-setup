@@ -8,6 +8,7 @@
 - Expo
 - React Native
 - NativeWind
+- React Navigation
 
 ### 📚 Additional libraries 🗃️
 
@@ -15,6 +16,7 @@
 - react-native-svg
 - react-native-svg-transformer
 - dayjs
+- @react-navigation/native-stack
 
 ## 📃 Guide 📖
 
@@ -26,6 +28,7 @@
 - 1: https://docs.expo.dev/guides/using-custom-fonts/
 - 2: https://docs.expo.dev/versions/latest/sdk/svg/
 - 3: https://www.nativewind.dev/quick-starts/expo
+- 4: https://reactnavigation.org/docs/getting-started
 
 ## 🔗 Projects repositories links ✨
 

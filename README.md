@@ -23,6 +23,7 @@
 - Expo
 - React Native
 - NativeWind
+- React Navigation
 
 ## 🖼️ Projects images 👀
 
