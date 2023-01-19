@@ -13,6 +13,10 @@
 
 - phosphor-react
 - dayjs
+- @radix-ui/react-dialog
+- @radix-ui/react-popover
+- @radix-ui/react-progress
+- clsx
 
 ## 📃 Guide 📖
 
@@ -30,6 +34,9 @@
 ## 🔗 Utils links ✨
 
 - 1: https://tailwindcss.com/docs/installation/using-postcss
+- 2: https://www.radix-ui.com/docs/primitives/components/dialog
+- 3: https://www.radix-ui.com/docs/primitives/components/popover
+- 4: https://www.radix-ui.com/docs/primitives/components/progress
 
 ## 🔗 Projects repositories links ✨
 
