@@ -17,6 +17,8 @@
 - react-native-svg-transformer
 - dayjs
 - @react-navigation/native-stack
+- axios
+- clsx
 
 ## 📃 Guide 📖
 
