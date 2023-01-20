@@ -17,6 +17,8 @@
 - @radix-ui/react-popover
 - @radix-ui/react-progress
 - clsx
+- @radix-ui/react-checkbox
+- axios
 
 ## 📃 Guide 📖
 
@@ -37,6 +39,7 @@
 - 2: https://www.radix-ui.com/docs/primitives/components/dialog
 - 3: https://www.radix-ui.com/docs/primitives/components/popover
 - 4: https://www.radix-ui.com/docs/primitives/components/progress
+- 5: https://www.radix-ui.com/docs/primitives/components/checkbox
 
 ## 🔗 Projects repositories links ✨
 
