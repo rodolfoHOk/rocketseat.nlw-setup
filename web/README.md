@@ -33,6 +33,12 @@
         @tailwind components;
         @tailwind utilities;
 
+## 💡 Ideias para o próximo nível ➕
+
+- Autenticação (firebase, auth0)
+- Notificações Push (mobile) / Service Workers (web)
+- Perfil público com gráfico de resumo
+
 ## 🔗 Utils links ✨
 
 - 1: https://tailwindcss.com/docs/installation/using-postcss

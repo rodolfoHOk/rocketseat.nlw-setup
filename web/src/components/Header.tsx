@@ -13,8 +13,9 @@ export function Header() {
         <Dialog.Trigger
           type="button"
           className={`border border-violet-500 font-semibold rounded-lg px-6
-                py-4 flex items-center gap-3 hover:border-violet-300 transition-colors 
-                duration-200`}
+            py-4 flex items-center gap-3 hover:border-violet-300 transition-colors 
+            duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2
+            focus:ring-offset-background focus:ring-violet-700`}
         >
           <Plus size={20} className="text-violet-500" />
           Novo hábito
@@ -31,7 +32,8 @@ export function Header() {
           >
             <Dialog.Close
               className={`absolute right-6 top-6 text-zinc-400 hover:text-zinc-200
-                transition-colors duration-200`}
+                transition-colors duration-200 rounded-lg focus:outline-none focus:ring-2 
+                focus:ring-offset-2 focus:ring-offset-zinc-900 focus:ring-violet-700`}
             >
               <X size={24} aria-label="fechar" />
             </Dialog.Close>

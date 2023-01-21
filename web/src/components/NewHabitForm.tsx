@@ -51,7 +51,9 @@ export function NewHabitForm() {
 
       <input
         type="text"
-        className={`p-4 rounded-lg mt-3 bg-zinc-800 text-white placeholder:text-zinc-400`}
+        className={`p-4 rounded-lg mt-3 bg-zinc-800 text-white placeholder:text-zinc-400
+          border-2 border-zinc-700 focus:outline-none focus:ring-2 focus:ring-offset-2
+          focus:ring-offset-zinc-900 focus:ring-violet-700`}
         id="title"
         placeholder="ex: Exercícios, Dormir bem, etc..."
         autoFocus
@@ -77,7 +79,9 @@ export function NewHabitForm() {
       <button
         type="submit"
         className={`mt-6 rounded-lg p-4 flex items-center justify-center gap-3 font-semibold
-         bg-green-600 hover:bg-green-500 transition-colors duration-200`}
+         bg-green-600 hover:bg-green-500 transition-colors duration-200 focus:outline-none
+         focus:ring-2 focus:ring-offset-2 focus:ring-offset-background 
+         focus:ring-green-700`}
       >
         <Check size={20} weight="bold" />
         Confirmar

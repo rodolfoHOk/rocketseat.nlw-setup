@@ -7,11 +7,16 @@ interface CheckboxProps extends CheckboxPrimitive.CheckboxProps {
 
 export function WeekDayCheckbox({ title, ...rest }: CheckboxProps) {
   return (
-    <CheckboxPrimitive.Root className="flex items-center gap-3 group" {...rest}>
+    <CheckboxPrimitive.Root
+      className="flex items-center gap-3 group focus:outline-none"
+      {...rest}
+    >
       <div
         className={`h-8 w-8 rounded-lg flex items-center justify-center bg-zinc-900
           border-2 border-zinc-800 group-data-[state=checked]:bg-green-500 
-          group-data-[state=checked]:border-green-500`}
+          group-data-[state=checked]:border-green-500 transition-colors duration-150
+          group-focus:ring-2 group-focus:ring-offset-2 group-focus:ring-offset-zinc-900
+          group-focus:ring-violet-700`}
       >
         <CheckboxPrimitive.Indicator>
           <Check size={20} className="text-white" />
