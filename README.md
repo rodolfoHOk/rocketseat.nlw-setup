@@ -24,6 +24,7 @@
 - React Native
 - NativeWind
 - React Navigation
+- React Native Reanimated
 
 ## 🖼️ Projects images 👀
 

@@ -33,11 +33,11 @@
         @tailwind components;
         @tailwind utilities;
 
-## 💡 Ideias para o próximo nível ➕
+## 💡 Ideas for the next level ➕
 
-- Autenticação (firebase, auth0)
-- Notificações Push (mobile) / Service Workers (web)
-- Perfil público com gráfico de resumo
+- Authentication (firebase, auth0)
+- Push Notifications (mobile) / Service Workers (web)
+- Public profile with summary chart
 
 ## 🔗 Utils links ✨
 

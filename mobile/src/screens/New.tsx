@@ -41,10 +41,10 @@ export function New() {
   async function handleCreateNewHabit() {
     try {
       if (weekDays.length === 0) {
-        Alert.alert('Novo hábito', 'Escolha a periodicidade');
+        return Alert.alert('Novo hábito', 'Escolha a periodicidade');
       }
       if (!title.trim()) {
-        Alert.alert('Novo hábito', 'Informe o nome do hábito');
+        return Alert.alert('Novo hábito', 'Informe o nome do hábito');
       }
 
       await api.post('/habits', {
