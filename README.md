@@ -20,11 +20,13 @@
 - Vite Js
 - React Js
 - Tailwind CSS
+- Service Worker (Push Notification)
 - Expo
 - React Native
 - NativeWind
 - React Navigation
 - React Native Reanimated
+- Local Notifications
 
 ## 🖼️ Projects images 👀
 

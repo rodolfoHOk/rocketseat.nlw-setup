@@ -8,6 +8,7 @@
 - Vite Js
 - React Js
 - Tailwind Css
+- Service Worker (Push Notification)
 
 ### 📚 Additional libraries 🗃️
 
@@ -46,6 +47,8 @@
 - 3: https://www.radix-ui.com/docs/primitives/components/popover
 - 4: https://www.radix-ui.com/docs/primitives/components/progress
 - 5: https://www.radix-ui.com/docs/primitives/components/checkbox
+- 6: https://developer.mozilla.org/pt-BR/docs/Web/API/Service_Worker_API/Using_Service_Workers
+- 7: https://developer.mozilla.org/pt-BR/docs/Web/API/PushManager
 
 ## 🔗 Projects repositories links ✨
 

@@ -10,6 +10,7 @@
 - NativeWind
 - React Navigation
 - React Native Reanimated
+- Local Notifications
 
 ### 📚 Additional libraries 🗃️
 
@@ -40,6 +41,7 @@
 - 5: https://reactnavigation.org/docs/use-focus-effect/
 - 6: https://docs.swmansion.com/react-native-reanimated/
 - 7: https://docs.expo.dev/versions/latest/sdk/reanimated/
+- 8: https://docs.expo.dev/versions/latest/sdk/notifications/
 
 ## 🔗 Projects repositories links ✨
 

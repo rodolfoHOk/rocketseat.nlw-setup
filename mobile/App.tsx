@@ -1,6 +1,6 @@
 import './src/lib/dayjs';
 
-import { StatusBar } from 'react-native';
+import { StatusBar, Button } from 'react-native';
 import {
   useFonts,
   Inter_400Regular,
@@ -8,9 +8,18 @@ import {
   Inter_700Bold,
   Inter_800ExtraBold,
 } from '@expo-google-fonts/inter';
+import * as Notifications from 'expo-notifications';
 
 import { Loading } from './src/components/Loading';
 import { Routes } from './src/routes';
+
+Notifications.setNotificationHandler({
+  handleNotification: async () => ({
+    shouldShowAlert: true,
+    shouldPlaySound: false,
+    shouldSetBadge: false,
+  }),
+});
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -20,6 +29,24 @@ export default function App() {
     Inter_800ExtraBold,
   });
 
+  async function scheduleNotification() {
+    const trigger = new Date(Date.now());
+    trigger.setSeconds(trigger.getSeconds() + 5);
+
+    await Notifications.scheduleNotificationAsync({
+      content: {
+        title: 'Olá, Rodolfo! 🤩',
+        body: 'Você praticou seus hábitos hoje?',
+      },
+      trigger,
+    });
+  }
+
+  async function getScheduledNotifications() {
+    const schedules = await Notifications.getAllScheduledNotificationsAsync();
+    console.log(schedules);
+  }
+
   if (!fontsLoaded) {
     return <Loading />;
   }
@@ -27,6 +54,12 @@ export default function App() {
   return (
     <>
       <Routes />
+
+      {/* <Button title="Enviar notificação" onPress={scheduleNotification} />
+      <Button
+        title="Notificações agendadas"
+        onPress={getScheduledNotifications}
+      /> */}
 
       <StatusBar
         barStyle="light-content"
